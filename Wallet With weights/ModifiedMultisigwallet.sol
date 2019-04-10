@@ -22,6 +22,9 @@ contract ModifiedMultisigwallet {
     }
     
     controller Controller;
+    
+    // Here this value represents the number of votes required to pass 
+    // A Transaction from the wallet
     uint num_of_signersRequired;
     uint countRequestOfController;
     uint16 ControllerWeight;
